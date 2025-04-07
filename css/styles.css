@@ -1,4 +1,3 @@
-/* Skip link styling */
 .skip-link {
     position: absolute;
     left: -999px;
@@ -16,7 +15,6 @@
     display: inline-block;
   }
   
-  /* Navigation styling */
   .navbar {
     display: flex;
     gap: 1rem;
@@ -34,12 +32,11 @@
     border-radius: 5px;
   }
   
-  /* Image styling using box model */
   .image-box img, .grid-gallery img {
     border: 3px solid #ccc;
     padding: 10px;
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     transition: transform 0.3s ease;
   }
@@ -47,7 +44,6 @@
     transform: scale(1.05);
   }
   
-  /* Grid gallery */
   .grid-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -55,7 +51,6 @@
     margin-top: 1rem;
   }
   
-  /* nth-child selector for images */
   .grid-gallery img:nth-child(odd) {
     border-radius: 30px;
   }
